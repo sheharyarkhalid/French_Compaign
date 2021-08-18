@@ -409,7 +409,7 @@ overflow-y: scroll;
 .create_campaign_page_one{
 float: left;
 width: 100%;
-padding: 0px 10px;
+padding: 0px 10px 50px 10px;
 }
 .create_campaign_container{
 max-width: 600px;
