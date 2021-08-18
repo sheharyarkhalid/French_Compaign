@@ -947,7 +947,14 @@ visibility: visible;
         height: 100vh;
         overflow-y: scroll;
         }
-
+        #campaign_progress {
+          height: 100vh;
+        overflow-y: scroll;
+        }
+        .campaign_progress_body {
+          height: 100vh;
+          overflow-y: scroll;
+        }
     }
 
 /*mobile*/
