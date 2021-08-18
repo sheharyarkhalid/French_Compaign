@@ -1010,3 +1010,33 @@ visibility: visible;
       }
   
       } 
+
+
+      #login_section{
+        display: block;
+        visibility: visible;
+      }
+      #campaign_progress{
+       display: none;
+       visibility: hidden;
+      }
+      #create_campaign_page_one{
+        display: none;
+        visibility: hidden;
+      }
+      #create_campaign_page_three{
+        display: none;
+        visibility: hidden;
+      }
+      #create_campaign_page_two{
+        display: none;
+        visibility: hidden;
+      }
+      #create_campaign_page_four{
+        display: none;
+        visibility: hidden;
+      }
+      #marketing_page{
+        display: none;
+        visibility: hidden;
+      }
