@@ -399,6 +399,101 @@ width: 100%;
   }
 /* campaign_progress_section end */
 
+/* create_campaign_page_one start */
+.create_campaign_section{
+float: left;
+width: 100%;
+height: 100vh;
+overflow-y: scroll;
+}
+.create_campaign_page_one{
+float: left;
+width: 100%;
+padding: 0px 10px;
+}
+.create_campaign_container{
+max-width: 600px;
+margin: 0 auto;
+}
+.page_one_form_one{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 20px 0px 20px 0px;
+}
+.input_fields_details{
+display: flex;
+flex-direction: column;
+gap: 20px 0px;
+}
+.input_fields_details .single_field{
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0px;
+}
+.input_fields_details .single_field label{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #B7B7B7;
+}
+.input_fields_details .single_field label span{
+  color: #f27d7d;
+}
+.input_fields_details .single_field input{
+  border: 2px solid #D8D8D8;
+  outline: none;
+  background-color: #FFFFFF;
+  padding: 8px 10px;
+  width: 220px;
+  font-size: 14px;
+}
+.page_one_date_field{
+position: relative;
+}
+.page_one_date_field i{
+position: absolute;
+right: 12px;
+top: 11px;
+color: #D8D8D8;
+}
+.input_fields_details .single_field select{
+  border: 2px solid #D8D8D8;
+  outline: none;
+  background-color: #FFFFFF;
+  padding: 8px 10px;
+  width: 220px;
+}
+
+.add_action_section{
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+}
+.form_one_add_action_box{
+display: flex;
+width: 100%;
+justify-content: space-between;
+border-bottom: 2px solid #ccc;
+}
+.form_one_add_action_box h2{
+  color: #222e50;
+  font-weight: 600;
+  font-size: 18px;
+}
+.form_one_add_action_box a i{
+  color: #222e50;
+}
+.target_heading h4{
+  color: #222e50;
+  font-size: 16px;
+}
+.page_one_gender_field{
+display: flex;
+gap: 0px 5px;
+}
+/* create_campaign_page_one end */
+
 
 /* admin_pannel_body  end */
 
@@ -516,3 +611,12 @@ display: flex;
 
     }
 
+    @media (max-width: 500px) { 
+      .page_one_form_one {
+        flex-direction: column;
+        gap: 10px 0px;
+      }
+      .page_one_date_field i {
+        left: 195px;
+      }
+    }
