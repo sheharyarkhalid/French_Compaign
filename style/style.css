@@ -905,6 +905,10 @@ visibility: visible;
     padding: 0px 15px;
     gap: 0px 10px;
   } 
+  .marketing_page_section{
+    height: 100vh;
+    overflow-y: scroll;
+    }
 
   #campaign_progress {
     height: 100vh;
