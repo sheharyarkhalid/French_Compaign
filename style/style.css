@@ -47,7 +47,7 @@ width: 100%;
 align-items: center;
 height: 100vh;
 position: relative;
-overflow-y:scroll ;
+
 }
 .sidebar_close_btn{
 /* position: absolute; */
@@ -412,6 +412,7 @@ width: 100%;
     left: 0px;
     width: 220px;
     z-index: 999;
+    overflow-y:scroll ;
   }
   .navigation_section{
     display: block;
@@ -429,6 +430,11 @@ width: 100%;
   .sidebar_close_btn{
 display: flex;
   }
+
+  .campaign_progress_body{
+    padding: 0px 15px;
+    gap: 0px 10px;
+  } 
 }
 
 
@@ -441,6 +447,7 @@ display: flex;
     left: 0px;
     width: 220px;
     z-index: 999;
+    overflow-y:scroll;
   }
   .navigation_section{
     display: block;
@@ -458,7 +465,11 @@ display: flex;
   .sidebar_close_btn{
     display: flex;
       }
-}
+      .campaign_progress_body{
+        padding: 0px 15px;
+        gap: 0px 10px;
+      } 
+    }
 
 /*mobile*/
 @media (max-width: 540px) { 
@@ -469,6 +480,7 @@ display: flex;
     left: 0px;
     width: 220px;
     z-index: 999;
+    overflow-y:scroll;
   }
   .navigation_section{
     display: block;
@@ -490,6 +502,14 @@ display: flex;
       .campaign_progress_header {
        flex-direction: column; 
        gap: 10px 0px;
+      }
+      .campaign_progress_body{
+        padding: 0px 15px;
+        gap: 0px 10px;
+        overflow-x: scroll;
+      } 
+      .campaign_inprogrss_done_detail {
+        min-width: 280px;
       }
 
     }
