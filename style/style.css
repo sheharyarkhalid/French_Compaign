@@ -905,6 +905,15 @@ visibility: visible;
     padding: 0px 15px;
     gap: 0px 10px;
   } 
+
+  #campaign_progress {
+    height: 100vh;
+  overflow-y: scroll;
+  }
+  .campaign_progress_body {
+    height: 100vh;
+    overflow-y: scroll;
+  }
 }
 
 
